@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Gavea.Common.FSharp</PackageId>
+    <Authors>Raphael Lima</Authors>
+    <Product>Gavea.Common.FSharp</Product>
+    <Description>Biblioteca com funções comuns de F#</Description>
+    <Version>1.0.10</Version>
+    <Company>Gavea Investimentos</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright 2018 (c) Gávea Investimentos Ltda. All rights reserved.</Copyright>
+    <PackageTags>fsharp result monad</PackageTags>
+    <PackageReleaseNotes>Conversão do pacote para .NET Standard 2.0</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Core.fs" />
+    <Compile Include="Result.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="System.ValueTuple" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>

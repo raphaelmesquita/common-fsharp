@@ -1,0 +1,1 @@
+dotnet nuget push bin\Release\Gavea.Common.FSharp.1.0.10.nupkg -s \\fsprd01rj\SDataRJ\SistemasRJ\NuGetRepo

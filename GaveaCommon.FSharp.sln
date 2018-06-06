@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "GaveaCommon.FSharp", "GaveaCommon.FSharp.fsproj", "{B48A70D8-0EE8-499C-BDC6-9760B65F7F03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{C64E2B74-955D-4DE6-9230-E04DF85B0C75}"
+	ProjectSection(SolutionItems) = preProject
+		publish_nuget.bat = publish_nuget.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B48A70D8-0EE8-499C-BDC6-9760B65F7F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48A70D8-0EE8-499C-BDC6-9760B65F7F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48A70D8-0EE8-499C-BDC6-9760B65F7F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48A70D8-0EE8-499C-BDC6-9760B65F7F03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82718045-54BC-40DE-A887-960F50F8FF8A}
+	EndGlobalSection
+EndGlobal
